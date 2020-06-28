@@ -53,7 +53,7 @@ function IndexPage() {
           </h2>
 
           <p className="leading-loose p-3">
-            The presidenteial election date in Wisconsin is
+            The presidential election date in Wisconsin is
             <span className="font-bold">&nbsp;Tuesday, November 3, 2020.</span>
           </p>
         </section>
@@ -93,7 +93,7 @@ function IndexPage() {
         /> */}
 
           <h2 className="p-3 text-2xl font-bold">
-            When is deadline for registering to vote in the Wisconsin
+            When is the deadline for registering to vote in the Wisconsin
             presidential election?
           </h2>
 
@@ -239,9 +239,9 @@ function IndexPage() {
               </span>
             </p>{" "}
             <p className="mb-3">
-              When voting absentee, youl will either complete your ballot in
+              When voting absentee, you will either complete your ballot in
               person at your local election office OR receive and complete the
-              ballot via the mail.
+              ballot via mail.
             </p>{" "}
           </div>
         </section>
@@ -307,7 +307,7 @@ function IndexPage() {
               </li>
             </ul>
             <p className="mb-3">
-              Remember, you will need to provide a photo ID when requestiong an
+              Remember, you will need to provide a photo ID when requesting an
               absentee ballot by mail or in-person. More information about
               acceptable photo IDs can be found at{" "}
               <a
@@ -389,7 +389,7 @@ function IndexPage() {
           <h2 className="p-3 text-2xl font-bold">How can I help? </h2>
           <div className="leading-loose p-3">
             <p className="mb-3 font-bold">
-              Please considering volunteering as a poll worker at your local
+              Please consider volunteering as a poll worker at your local
               polling station!
             </p>
 
