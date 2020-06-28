@@ -272,6 +272,9 @@ function IndexPage() {
                 Online: You must request a ballot no later than 5:00 p.m. on
                 Thursday, October 29, 2020 in order for an absentee ballot to be
                 SENT to you.
+                <span className="font-bold">
+                  &nbsp;You will need a copy of your photo id.
+                </span>
                 <a
                   className="no-underline text-blue-700 hover:text-blue-800"
                   href="https://myvote.wi.gov/en-US/VoteAbsentee"
