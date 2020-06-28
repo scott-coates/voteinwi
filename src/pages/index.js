@@ -35,7 +35,10 @@ function IndexPage() {
         title="Home"
       />
       <section className="">
-        <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200"> Vote in Wisconsin</h1>
+        <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
+          {" "}
+          Vote in Wisconsin
+        </h1>
       </section>
       <div className="space-y-12 mb-48">
         <section className="bg-gray-100">
@@ -380,9 +383,7 @@ function IndexPage() {
           className="block w-1/2 mx-auto mb-8"
           src={catAndHumanIllustration}
         /> */}
-
           <h2 className="p-3 text-2xl font-bold">How can I help? </h2>
-
           <div className="leading-loose p-3">
             <p className="mb-3 font-bold">
               Please considering volunteering as a poll worker at your local
@@ -417,67 +418,65 @@ function IndexPage() {
               </a>{" "}
             </p>
           </div>
-
           <div className="shadow">
-              <article
-                className="border-b"
-                onClick={() => setDisplayInfo3(!info3)}
-              >
-                <div className="border-transparent">
-                  <header className="flex justify-between items-center cursor-pointer select-none">
-                    <div className="bg-indigo-900  py-4 lg:px-8 w-full">
-                      <div
-                        className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
-                        role="alert"
-                      >
-                        <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
-                          <svg
-                            className="fill-current opacity-75 h-4 w-4"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm2-13c0 .28-.21.8-.42 1L10 9.58c-.57.58-1 1.6-1 2.42v1h2v-1c0-.29.21-.8.42-1L13 9.42c.57-.58 1-1.6 1-2.42a4 4 0 1 0-8 0h2a2 2 0 1 1 4 0zm-3 8v2h2v-2H9z" />
-                          </svg>
-                        </span>
-                        <span className="font-semibold mr-2 text-left flex-auto">
-                          Want to volunteer for your local election office?
-                        </span>
+            <article
+              className="border-b"
+              onClick={() => setDisplayInfo3(!info3)}
+            >
+              <div className="border-transparent">
+                <header className="flex justify-between items-center cursor-pointer select-none">
+                  <div className="bg-indigo-900  py-4 lg:px-8 w-full">
+                    <div
+                      className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+                      role="alert"
+                    >
+                      <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
                         <svg
                           className="fill-current opacity-75 h-4 w-4"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
                         >
-                          <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
+                          <path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm2-13c0 .28-.21.8-.42 1L10 9.58c-.57.58-1 1.6-1 2.42v1h2v-1c0-.29.21-.8.42-1L13 9.42c.57-.58 1-1.6 1-2.42a4 4 0 1 0-8 0h2a2 2 0 1 1 4 0zm-3 8v2h2v-2H9z" />
                         </svg>
-                      </div>
+                      </span>
+                      <span className="font-semibold mr-2 text-left flex-auto">
+                        Want to volunteer for your local election office?
+                      </span>
+                      <svg
+                        className="fill-current opacity-75 h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
+                      </svg>
                     </div>
-                  </header>
-                  <Collapse isOpened={info3}>
-                    <div>
-                      <div className="pl-8 pr-8 pb-5 text-grey-darkest">
-                        <ul className="pt-4">
-                          <li className="pb-2">
-                            Municipal clerks are in charge of elections for your
-                            city, town, or village. Your municipal clerk handles
-                            voter registrations and absentee ballots for voters
-                            in their municipality.
-                          </li>
-                          <li className="pb-2">
-                            <a
-                              className="no-underline text-blue-700 hover:text-blue-800"
-                              href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
-                            >
-                              Click here to locate your municipal clerk.
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                  </div>
+                </header>
+                <Collapse isOpened={info3}>
+                  <div>
+                    <div className="pl-8 pr-8 pb-5 text-grey-darkest">
+                      <ul className="pt-4">
+                        <li className="pb-2">
+                          Municipal clerks are in charge of elections for your
+                          city, town, or village. Your municipal clerk handles
+                          voter registrations and absentee ballots for voters in
+                          their municipality.
+                        </li>
+                        <li className="pb-2">
+                          <a
+                            className="no-underline text-blue-700 hover:text-blue-800"
+                            href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
+                          >
+                            Click here to locate your municipal clerk.
+                          </a>
+                        </li>
+                      </ul>
                     </div>
-                  </Collapse>
-                </div>
-              </article>
-            </div>{" "}
-         
+                  </div>
+                </Collapse>
+              </div>
+            </article>
+          </div>{" "}
         </section>
       </div>
     </Layout>
