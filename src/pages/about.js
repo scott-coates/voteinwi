@@ -2,34 +2,33 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
 
 function AboutPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[
+          `vote in wisconsin`,
+          `vote in wi`,
+          `wisconsin voting registration`,
+          `wi voting registration`,
+          `wisconsin mail-in ballots`,
+          `wi mail-in ballots`,
+          `wisconsin presidential election 2020`,
+          `wi presidential election 2020`,
+          `wisconsin general election 2020`,
+          `wi general election 2020`,
+        ]}
         title="About"
       />
 
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
-            The point is... to live one&apos;s life in the full complexity of
-            what one is, which is something much darker, more contradictory,
-            more of a maelstrom of impulses and passions, of cruelty, ecstacy,
-            and madness, than is apparent to the civilized being who glides on
-            the surface and fits smoothly into the world.
-          </blockquote>
-
-          <cite className="block mt-4 text-xs font-bold text-right uppercase">
-            – Thomas Nagel
-          </cite>
+          <p className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
+            VoteInWI is an easy way to prepare yourself for the 2020 general election. For questions, please contact <a className="no-underline text-blue-700 hover:text-blue-800" href="mailto:scott.c.coates@gmail.com?subject=Vote in WI">Scott Coates</a>.
+          </p>
         </div>
 
-        <figure className="w-2/3 md:w-1/3">
-          <img alt="A dog relaxing" src={dogIllustration} />
-        </figure>
       </section>
     </Layout>
   );

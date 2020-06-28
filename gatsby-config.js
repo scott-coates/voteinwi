@@ -37,6 +37,6 @@ module.exports = {
       },
     },
     //`gatsby-plugin-offline`,
-    'gatsby-plugin-netlify-cache',
+    "gatsby-plugin-netlify-cache",
   ],
 };
