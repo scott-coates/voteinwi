@@ -463,11 +463,17 @@ function IndexPage() {
                           their municipality.
                         </li>
                         <li className="pb-2">
+                          Each city, village and town in Wisconsin is
+                          responsible for setting the dates and hours of
+                          in-person absentee voting for their municipality. To
+                          find the dates and hours for in-person absentee voting
+                          where you live,
                           <a
                             className="no-underline text-blue-700 hover:text-blue-800"
                             href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
                           >
-                            Click here to locate your municipal clerk.
+                            {" "}
+                            click here.
                           </a>
                         </li>
                       </ul>
