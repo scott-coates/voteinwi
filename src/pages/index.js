@@ -32,7 +32,7 @@ function IndexPage() {
           `wisconsin general election 2020`,
           `wi general election 2020`,
         ]}
-        title="Home"
+        title="Vote in Wisconsin"
       />
       <section className="">
         <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
