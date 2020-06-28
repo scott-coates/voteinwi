@@ -402,6 +402,14 @@ function IndexPage() {
               volunteers.
             </p>
             <p className="mb-3">
+              Green Bay had
+              <span className="font-bold">&nbsp;93.3% of its</span> polling
+              stations closed.   La Crosse was at
+              <span className="font-bold">&nbsp;38.5%</span> polling
+              stations closed, and Madison was at
+              <span className="font-bold">&nbsp;28%</span>.
+            </p>
+            <p className="mb-3">
               Cities all across Wisconsin are looking for individuals interested
               in working the polling locations on an election day!
             </p>

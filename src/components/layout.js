@@ -15,7 +15,7 @@ function Layout({ children }) {
 
       <footer className="bg-gray-200 text-gray-500">
         <nav className="flex justify-center max-w-4xl p-4 mx-auto text-sm md:p-8">
-        <Link
+          <Link
             className="block mt-4 no-underline md:inline-block md:mt-0 md:ml-6"
             to="/"
           >
