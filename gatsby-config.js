@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Vote in Wisconsin`,
-    description: `Learn how to easily cast your vote in the Wisconsin 2020 General Election.`,
+    description: `Learn how to vote in the Wisconsin 2020 General Election.`,
     author: `voteinwi`,
   },
   plugins: [
