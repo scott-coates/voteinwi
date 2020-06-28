@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Vote in Wisconsin`,
+    description: `Learn how to easily cast your vote in the Wisconsin 2020 General Election.`,
+    author: `voteinwi`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
