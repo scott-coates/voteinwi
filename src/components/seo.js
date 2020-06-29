@@ -2,12 +2,14 @@ import { useStaticQuery, graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
+import voteInWiImage from "../images/voteinwi.png";
 
 function SEO({ description, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
         siteMetadata {
+          url
           title
           description
           author
@@ -17,6 +19,8 @@ function SEO({ description, lang, meta, keywords, title }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+  const url = site.siteMetadata.url;
+  const voteInWiImagePath = `${url}${voteInWiImage}`;
 
   return (
     <Helmet
@@ -41,6 +45,14 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: voteInWiImagePath,
+        },
+        {
+          property: `og:url`,
+          content: url,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -55,6 +67,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: voteInWiImagePath,
         },
       ]
         .concat(

@@ -5,6 +5,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
+    url: "https://www.voteinwi.org", // no end slash
     title: `Vote in Wisconsin`,
     description: `Learn how to vote in the Wisconsin 2020 General Election.`,
     author: `voteinwi`,

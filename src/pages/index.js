@@ -395,6 +395,26 @@ function IndexPage() {
           className="block w-1/2 mx-auto mb-8"
           src={catAndHumanIllustration}
         /> */}
+
+          <h2 className="p-3 text-2xl font-bold">
+            How much doe it cost to I mail my ballot in the Wisconsin
+            presidential election?
+          </h2>
+
+          <div className="leading-loose p-3">
+            <p className="mb-3">
+              <span className="font-bold">100% free </span>when your ballot is
+              mailed back from within the U.S.
+            </p>
+          </div>
+        </section>
+
+        <section className="bg-gray-100">
+          {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/2 mx-auto mb-8"
+          src={catAndHumanIllustration}
+        /> */}
           <h2 className="p-3 text-2xl font-bold">How can I help? </h2>
           <div className="leading-loose p-3">
             <p className="mb-3 font-bold">
