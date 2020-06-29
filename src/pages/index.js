@@ -37,7 +37,7 @@ function IndexPage() {
       <section className="">
         <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
           {" "}
-          Vote in Wisconsin
+          Vote in Wisconsin 2020
         </h1>
       </section>
       <div className="space-y-12 mb-48">
