@@ -71,16 +71,26 @@ function IndexPage() {
           <div className="leading-loose p-3">
             <p className="mb-3">Probably. To register in Wisconsin you must:</p>
             <ul className="list-disc list-outside mb-6 pl-4">
-              <li>be a citizen of the United States</li>
-              <li>be a resident of Wisconsin for at least 10 days</li>
-              <li>be 18 years old or older</li>
+              <li>Be a citizen of the United States.</li>
+              <li>Be a resident of Wisconsin for at least 10 days.</li>
+              <li>Be 18 years old or older.</li>
               <li>
-                not have been convicted of treason, felony or bribery, or if you
-                have, your civil rights have been restored
+                Not be incapable of understanding the objective of the elective
+                process or under guardianship.
+              </li>{" "}
+              <li>
+                Not have been convicted of treason, felony or bribery, or if you
+                have, your civil rights have been restored.
               </li>
-              <li>
-                not be incapable of understanding the objective of the elective
-                process or under guardianship
+              <li className="ml-3">
+                Convicted of a felony? Visit
+                <a
+                  className="no-underline text-blue-700 hover:text-blue-800"
+                  href="https://campaignlegal.org/restoreyourvote"
+                >
+                  &nbsp;Restore Your Vote
+                </a>
+                &nbsp;to determine your eligibility to vote.
               </li>
             </ul>
           </div>
