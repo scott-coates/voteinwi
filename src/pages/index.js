@@ -99,15 +99,14 @@ function IndexPage() {
 
           <div className="leading-loose p-3">
             <p className="mb-3">
-              First off, you can register to vote in person at your polling
-              place on Election Day. Make sure you bring both a proof of
-              residency document and a form of I.D. along to register on
-              Election Day.
+              First, you can register to vote in person at your polling place on
+              Election Day. Make sure you bring both a proof of residency
+              document and a form of I.D. along to register on Election Day.
             </p>
 
             <p className="mb-3">
-              If you want to save time and avoid the hassle of registering in
-              person, it&apos;s super easy to register other ways:
+              If you want to save time and avoid the hassle of registering on
+              Election Day, it&apos;s super easy to register other ways:
             </p>
             <ul className="list-disc list-outside mb-6 pl-4">
               <li className="">
@@ -230,9 +229,8 @@ function IndexPage() {
             </p>
             <p className="mb-3">
               In Wisconsin, if you&apos;re registered to vote, you&apos;re
-              eligible to request an absentee ballot. Under Wisconsin law, you
-              do not need a reason or excuse, such as being out of town on
-              Election Day, to vote by mail.
+              eligible to request an absentee ballot. Under state law, you do
+              not need a reason or excuse to vote by mail.
               <span className="font-bold">
                 &nbsp;Any voter who prefers to vote by absentee ballot may
                 request one.
@@ -258,7 +256,8 @@ function IndexPage() {
 
           <div className="leading-loose p-3">
             <p className="mb-3">
-              Your completed absentee ballot must be delivered no later than{" "}
+              Your completed absentee ballot{" "}
+              <span className="underline">must be delivered</span> no later than{" "}
               <span className="font-bold">8 p.m. on Election Day. </span> The
               U.S. Postal Service recommends absentee ballots be mailed one week
               before Election Day to arrive in time.
@@ -389,10 +388,8 @@ function IndexPage() {
           <h2 className="p-3 text-2xl font-bold">How can I help? </h2>
           <div className="leading-loose p-3">
             <p className="mb-3 font-bold">
-              Please consider volunteering as a poll worker at your local
-              polling station!
+              Volunteering as a poll worker at your local polling station!
             </p>
-
             <p className="mb-3">
               In April, during our last major presidential primary election,
               <span className="font-bold">
@@ -404,14 +401,22 @@ function IndexPage() {
             <p className="mb-3">
               Green Bay had
               <span className="font-bold">&nbsp;93.3% of its</span> polling
-              stations closed.   La Crosse was at
-              <span className="font-bold">&nbsp;38.5%</span> polling
-              stations closed, and Madison was at
-              <span className="font-bold">&nbsp;28%</span>.
+              stations closed. La Crosse had
+              <span className="font-bold">&nbsp;38.5%</span> polling stations
+              closed, and Madison had
+              <span className="font-bold">&nbsp;28%</span> closed.
             </p>
             <p className="mb-3">
+              Polling sites were closed during the primary when there were not
+              enough poll workers available due to the pandemic. Your typical
+              poll worker is a senior citizen, which is a high risk group for
+              Covid-19.
+            </p>{" "}
+            <p className="mb-3">
               Cities all across Wisconsin are looking for individuals interested
-              in working the polling locations on an election day!
+              in working the polling locations on an election day! If you are
+              young and healthy, consider doing your part to make this a safe
+              and fair election. (By the way, his is a paid position!){" "}
             </p>
             <p className="mb-3">
               Poll workers are appointed to two-year terms so you will be asked
@@ -429,7 +434,7 @@ function IndexPage() {
               </a>{" "}
             </p>
           </div>
-          <div className="shadow">
+          <div className="shadow mb-3">
             <article
               className="border-b"
               onClick={() => setDisplayInfo3(!info3)}
@@ -493,6 +498,29 @@ function IndexPage() {
                 </Collapse>
               </div>
             </article>
+          </div>{" "}
+          <div className="leading-loose p-3">
+            <p className="mb-3 font-bold">
+              Encourage your friends and family to vote
+            </p>
+
+            <p className="mb-3">
+              Every vote counts. Talk to your friends and family about the
+              election and encourage them to vote. You can help them register by
+              sharing this page. And remember to help them request an absentee
+              ballot so they can vote early.
+            </p>
+          </div>
+          <div className="leading-loose p-3">
+            <p className="mb-3 font-bold">Share your vote plan with others</p>
+
+            <p className="mb-3">
+              You’re more likely to follow through on your plan if you announce
+              it to your friends and family. Sharing your game plan to vote also
+              encourages others to consider how they will vote this year and if
+              they need to take any special steps (like sign up for absentee
+              voting) in order to do so.
+            </p>
           </div>{" "}
         </section>
       </div>
