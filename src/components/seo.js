@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 import voteInWiImage from "../images/voteinwi.png";
+import voteAbsenteeInWiImage from "../images/how-to-vote-absentee-wi.png";
 
 function SEO({ description, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(graphql`
@@ -21,6 +22,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   const metaDescription = description || site.siteMetadata.description;
   const url = site.siteMetadata.url;
   const voteInWiImagePath = `${url}${voteInWiImage}`;
+  const voteAbsenteeInWiImagePath = `${url}${voteAbsenteeInWiImage}`;
 
   return (
     <Helmet
@@ -46,7 +48,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: voteInWiImagePath,
+          content: voteAbsenteeInWiImagePath,
         },
         {
           property: `og:url`,

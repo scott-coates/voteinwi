@@ -306,16 +306,20 @@ function IndexPage() {
             <ul className="list-disc list-outside mb-6 pl-4">
               <li className="">
                 <span className="font-bold">&nbsp;Cheaper</span>: Mail-in voting
-                is 100% free. No postage required. It&apos;s cheaper than the cost
-                of transporation to your local polling location.
+                is 100% free. No postage required. It&apos;s cheaper than the
+                cost of transporation to your local polling location.
               </li>
               <li className="">
                 <span className="font-bold">&nbsp;Faster</span>: Back in the
-                April 2020 Primary Election, voters in cities like
-                Milwaukee and Green Bay had to wait in line for hours.
+                April 2020 Primary Election, voters in cities like Milwaukee and
+                Green Bay had to wait in line for hours.
               </li>
               <li className="">
-                <span className="font-bold">&nbsp;Safer</span>: Many polling sites were closed during the April 2020 Primary Election. Hundreds of poll workers had to stay home because of the pandemic. Your typical poll worker is a senior citizen, which is a high risk group for Covid-19.
+                <span className="font-bold">&nbsp;Safer</span>: Many polling
+                sites were closed during the April 2020 Primary Election.
+                Hundreds of poll workers had to stay home because of the
+                pandemic. Your typical poll worker is a senior citizen, which is
+                a high risk group for Covid-19.
               </li>
             </ul>
           </div>
