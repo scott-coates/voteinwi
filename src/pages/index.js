@@ -84,12 +84,12 @@ function IndexPage() {
           `wisconsin general election 2020`,
           `wi general election 2020`,
         ]}
-        title="How to Vote in Wisconsin"
+        title="The Unofficial Wisconsin 2020 Voter's Guide"
       />
       <section className="">
         <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
           {" "}
-          Vote in Wisconsin 2020
+          The Unofficial Guide to Voting in Wisconsin 2020
         </h1>
       </section>
       <div className="space-y-12 mb-48">
@@ -545,6 +545,33 @@ function IndexPage() {
               voting) in order to do so.
             </p>
           </div>{" "}
+        </section>
+        <section className="bg-gray-100">
+          {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/2 mx-auto mb-8"
+          src={catAndHumanIllustration}
+        /> */}
+          <h2 className="p-3 text-2xl font-bold bg-gray-100">
+            Where is the official Wisconsin voter website?
+          </h2>
+          <p className="leading-loose p-3">
+            First off, please remember&nbsp;
+            <span className="underline">this guide</span>&nbsp;is not the
+            official Wisconsin voter&apos;s website.
+          </p>
+          <p className="leading-loose p-3">
+            The <span className="font-bold">&nbsp;official </span>
+            Wisconsin voter&apos;s website can be found at{" "}
+            <a
+              className="no-underline text-blue-700 hover:text-blue-800"
+              href="https://myvote.wi.gov/"
+            >
+              {" "}
+              https://myvote.wi.gov/
+            </a>
+            .
+          </p>
         </section>
       </div>
     </Layout>

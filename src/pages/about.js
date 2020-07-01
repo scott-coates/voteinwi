@@ -24,14 +24,24 @@ function AboutPage() {
 
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
-          <p className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
-            VoteInWI is an easy way to prepare yourself for the 2020 general
-            election. For questions, please contact{" "}
+          <p className="pl-4 font-serif leading-loose border-l-4 border-gray-900">
+            VoteInWI is the unofficial guide for the 2020 general election. For
+            questions or suggestions, please contact{" "}
             <a
               className="no-underline text-blue-700 hover:text-blue-800"
               href="mailto:scott.c.coates@gmail.com?subject=Vote in WI"
             >
               Scott Coates
+            </a>
+            .
+          </p>
+          <p className="pl-4 font-serif leading-loose border-l-4 border-gray-900">
+            Want to make a change? Contributions can be made here:
+            <a
+              className="no-underline text-blue-700 hover:text-blue-800"
+              href="https://github.com/scottccoates/voteinwi"
+            >
+              &nbsp;GitHub
             </a>
             .
           </p>
