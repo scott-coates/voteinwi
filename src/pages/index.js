@@ -84,12 +84,12 @@ function IndexPage() {
           `wisconsin general election 2020`,
           `wi general election 2020`,
         ]}
-        title="The Non-Spammy, Unofficial Wisconsin 2020 Voter's Guide"
+        title="The Unofficial, Non-Spammy Wisconsin 2020 Voter's Guide"
       />
       <section className="">
         <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
           {" "}
-          The Non-Spammy, Unofficial Guide to Voting in Wisconsin 2020
+          The Unofficial, Non-Spammy Guide to Voting in Wisconsin 2020
         </h1>
       </section>
       <div className="space-y-12 mb-48">
@@ -492,36 +492,7 @@ function IndexPage() {
                 &nbsp;Click here to see which positions are available.
               </a>{" "}
             </p>
-          </div>
-          <div className="mb-3">
-            <InfoBox
-              title="Want to volunteer for your local election office?
-"
-            >
-              <ul className="pt-4">
-                <li className="pb-2">
-                  Municipal clerks are in charge of elections for your city,
-                  town, or village. Your municipal clerk handles voter
-                  registrations and absentee ballots for voters in their
-                  municipality.
-                </li>
-                <li className="pb-2">
-                  Each city, village and town in Wisconsin is responsible for
-                  setting the dates and hours of in-person absentee voting for
-                  their municipality. To find the dates and hours for in-person
-                  absentee voting where you live,
-                  <a
-                    className="no-underline text-blue-700 hover:text-blue-800"
-                    href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
-                  >
-                    {" "}
-                    click here.
-                  </a>
-                </li>
-              </ul>
-            </InfoBox>{" "}
-          </div>{" "}
-          <div className="leading-loose p-3">
+          </div>  <div className="leading-loose p-3">
             <p className="mb-3 font-bold">
               Encourage your friends and family to vote
             </p>
