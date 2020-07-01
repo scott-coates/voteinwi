@@ -11,7 +11,7 @@ function InfoBox(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div {...props} className="shadow">
+    <div className="shadow">
       <article className="border-b" onClick={() => setIsOpen(!isOpen)}>
         <div className="border-transparent">
           <header className="flex justify-between items-center cursor-pointer select-none">
@@ -84,12 +84,12 @@ function IndexPage() {
           `wisconsin general election 2020`,
           `wi general election 2020`,
         ]}
-        title="The Unofficial Wisconsin 2020 Voter's Guide"
+        title="The Non-Spammy, Unofficial Wisconsin 2020 Voter's Guide"
       />
       <section className="">
         <h1 className="inline-block p-3 mb-12 text-4xl font-bold bg-gray-200 w-full">
           {" "}
-          The Unofficial Guide to Voting in Wisconsin 2020
+          The Non-Spammy, Unofficial Guide to Voting in Wisconsin 2020
         </h1>
       </section>
       <div className="space-y-12 mb-48">
@@ -224,7 +224,6 @@ function IndexPage() {
               choose.
             </p>
             <InfoBox
-              className="uppercase"
               title="Need the mailing address to your local election
                           office?"
             >
