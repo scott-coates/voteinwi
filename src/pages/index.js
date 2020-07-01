@@ -11,7 +11,7 @@ function InfoBox(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="shadow">
+    <div className="info-box shadow">
       <article className="border-b" onClick={() => setIsOpen(!isOpen)}>
         <div className="border-transparent">
           <header className="flex justify-between items-center cursor-pointer select-none">
