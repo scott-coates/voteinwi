@@ -426,7 +426,7 @@ function IndexPage() {
         /> */}
 
           <h2 className="p-3 text-2xl font-bold">
-            How much doe it cost to I mail my ballot in the Wisconsin
+            How much does it cost to I mail my ballot in the Wisconsin
             presidential election?
           </h2>
 
