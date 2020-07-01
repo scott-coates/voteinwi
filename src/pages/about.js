@@ -36,7 +36,7 @@ function AboutPage() {
             .
           </p>
           <p className="pl-4 font-serif leading-loose border-l-4 border-gray-900">
-            Want to make a change? Contributions can be made here:
+            Want to make a change to the site? Contributions can be made here:
             <a
               className="no-underline text-blue-700 hover:text-blue-800"
               href="https://github.com/scottccoates/voteinwi"
