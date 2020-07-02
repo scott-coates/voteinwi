@@ -346,15 +346,16 @@ function IndexPage() {
 
           <div className="leading-loose p-3">
             <p className="mb-3">
-              Your completed absentee ballot{" "}
-              <span className="underline">must be delivered</span> no later than{" "}
+              Your completed absentee ballot must be sitting in your election
+              office by{" "}
               <span className="font-bold">8 p.m. on Election Day. </span> The
-              U.S. Postal Service recommends absentee ballots be mailed one week
-              before Election Day to arrive in time.
+              U.S.P.S. recommends absentee ballots be mailed{" "}
+              <span className="underline">one week</span> before Election Day to
+              arrive in time (Tuesday, October 27th, 2020).
             </p>
             <p className="mb-3">
               You have several options for requesting an absentee ballot and
-              casting your vote.
+              casting your vote via mail.
             </p>
             <ul className="list-disc list-outside mb-6 pl-4">
               <li className="">
@@ -386,13 +387,29 @@ function IndexPage() {
                 </a>
               </li>
               <li>
-                In Person at your Election Office: Contact your local election
+                In Person at your Election Office:{" "}
+                <a
+                  className="no-underline text-blue-700 hover:text-blue-800"
+                  href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
+                >
+                  Contact your local election
+                </a>{" "}
                 office for dates and hours of in-person absentee voting. You
                 will vote your ballot immediately in the election office, seal
                 your ballot in the proper envelope, and return it to a member of
                 the clerk&apos;s staff. No ballots may be taken out of the
                 election office.
                 <span className="font-bold">&nbsp;Bring your photo ID.</span>
+              </li>
+              <li>
+                <span className="underline">Once you&apos;re registered</span>,
+                wait until September: Ballot applications will go to all
+                registered voters in the state by September, unless you have
+                already requested an absentee ballot OR have moved and
+                haven&apos;t confirmed your address.
+                <span className="font-bold">
+                  &nbsp;You will need a copy of your photo id.
+                </span>
               </li>
             </ul>
             <p className="mb-3">
@@ -406,6 +423,10 @@ function IndexPage() {
                 www.bringit.wi.gov
               </a>
               .
+            </p>{" "}
+            <p className="mb-3">
+              Once you get your absentee ballot in the mail, you can immediately
+              fill it out and return it.
             </p>
             <InfoBox title="Need to find your local election office?">
               <ul className="pt-4">
