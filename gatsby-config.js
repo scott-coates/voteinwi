@@ -39,6 +39,6 @@ module.exports = {
     },
     //`gatsby-plugin-offline`,
     "gatsby-plugin-netlify-cache",
-    'gatsby-plugin-no-javascript' // <-- Here is the plugin, make sure it is included last in the plugins array.
+    "gatsby-plugin-no-javascript", // <-- Here is the plugin, make sure it is included last in the plugins array.
   ],
 };
