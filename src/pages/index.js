@@ -122,9 +122,16 @@ function IndexPage() {
 
           <div className="leading-loose p-3">
             <p className="mb-3">
-              Probably. The important thing is that you&apos;re at least 18—and
-              if you just moved here, you must be a resident for at least 10
-              days.{" "}
+              Probably. The important thing is that you&apos;re at least 18. If
+              you just moved here, you must{" "}
+              <a
+                className="no-underline text-blue-700 hover:text-blue-800"
+                href="https://trust.dot.state.wi.us/dmvac/dmvacservlet?whoami=search"
+              >
+                update your address
+              </a>{" "}
+              with the Department of Transportation (but you don&apos; need a
+              new license). Also, you must be a resident for at least 10 days.{" "}
             </p>
 
             <InfoBox title="Want to see all of the requirements for voting?">
@@ -233,6 +240,23 @@ function IndexPage() {
               and a form of I.D. along no matter which kind of registration you
               choose.
             </p>
+            <div className="mb-3">
+              <InfoBox title="Having troubles registering online?">
+                <ul className="pt-4">
+                  <li className="pb-2">
+                    Contact{" "}
+                    <a
+                      className="no-underline text-blue-700 hover:text-blue-800"
+                      href="mailto:elections@wi.gov"
+                    >
+                      elections@wi.gov{" "}
+                    </a>
+                    and ask for help. Additionally, request that they add your address to the WisVote system.
+                  </li>
+                  <li className="pb-2"></li>
+                </ul>
+              </InfoBox>
+            </div>
             <InfoBox
               title="Need the mailing address to your local election
                           office?"
@@ -547,6 +571,17 @@ function IndexPage() {
               voting) in order to do so.
             </p>
           </div>{" "}
+          <div className="leading-loose p-3">
+            <p className="mb-3 font-bold">Share your vote plan with others</p>
+
+            <p className="mb-3">
+              You’re more likely to follow through on your plan if you announce
+              it to your friends and family. Sharing your game plan to vote also
+              encourages others to consider how they will vote this year and if
+              they need to take any special steps (like sign up for absentee
+              voting) in order to do so.
+            </p>
+          </div>
         </section>
         <section className="bg-gray-100">
           {/* <img
