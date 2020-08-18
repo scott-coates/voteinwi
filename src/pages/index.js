@@ -172,7 +172,7 @@ function IndexPage() {
         /> */}
 
           <h2 className="p-3 text-2xl font-bold">
-            When is the deadline for registering to vote in the Wisconsin
+            How do I register to vote in the Wisconsin
             presidential election?
           </h2>
 
@@ -198,7 +198,7 @@ function IndexPage() {
 
             <p className="mb-3">
               If you want to save time and avoid the hassle of registering on
-              Election Day, it&apos;s super easy to register other ways:
+              Election Day, it&apos;s super easy to register other ways, here are the deadlines for each method:
             </p>
             <ul className="list-disc list-outside mb-6 pl-4">
               <li className="">
