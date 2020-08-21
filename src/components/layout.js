@@ -23,6 +23,12 @@ function Layout({ children }) {
           </Link>
           <Link
             className="block mt-4 ml-3 no-underline md:inline-block md:mt-0 md:ml-6"
+            to="/faq"
+          >
+            Voter FAQ
+          </Link>{" "}
+          <Link
+            className="block mt-4 ml-3 no-underline md:inline-block md:mt-0 md:ml-6"
             to="/about"
           >
             About

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
 import { Collapse } from "react-collapse";
 
@@ -101,514 +102,63 @@ function IndexPage() {
         /> */}
 
           <h2 className="p-3 text-2xl font-bold bg-gray-100">
-            When is the 2020 presidential election?
+            Step 1: register to vote (2 min)
           </h2>
 
           <p className="leading-loose p-3">
-            The presidential election date in Wisconsin is
-            <span className="font-bold">&nbsp;Tuesday, November 3, 2020.</span>
-          </p>
-        </section>
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            Can I vote in the Wisconsin presidential election?
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              Probably. The important thing is that you&apos;re at least 18. If
-              you just moved here, you must{" "}
-              <a
-                className="no-underline text-blue-700 hover:text-blue-800"
-                href="https://trust.dot.state.wi.us/dmvac/dmvacservlet?whoami=search"
-              >
-                update your address
-              </a>{" "}
-              with the Department of Transportation (but you don&apos; need a
-              new license). Also, you must be a resident for at least 10 days.{" "}
-            </p>
-
-            <InfoBox title="Want to see all of the requirements for voting?">
-              <ul className="pt-4">
-                <li className="pb-2">To register in Wisconsin you must:</li>
-              </ul>
-              <ul className="list-disc list-outside mb-6 pl-4">
-                <li>Be a citizen of the United States.</li>
-                <li>Be a resident of Wisconsin for at least 10 days.</li>
-                <li>Be 18 years old or older.</li>
-                <li>
-                  Not be incapable of understanding the objective of the
-                  elective process or under guardianship.
-                </li>{" "}
-                <li>
-                  Not have been convicted of treason, felony or bribery, or if
-                  you have, your civil rights have been restored.
-                </li>
-                <li className="ml-3">
-                  Convicted of a felony? Visit
-                  <a
-                    className="no-underline text-blue-700 hover:text-blue-800"
-                    href="https://campaignlegal.org/restoreyourvote"
-                  >
-                    &nbsp;Restore Your Vote
-                  </a>
-                  &nbsp;to determine your eligibility to vote.
-                </li>
-              </ul>
-            </InfoBox>
-          </div>
-        </section>
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            How do I register to vote in the Wisconsin
-            presidential election?
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              First, you can register to vote in person at your polling place on
-              Election Day. Make sure you bring both a
-              <a
-                className="no-underline text-blue-700 hover:text-blue-800"
-                href="https://myvote.wi.gov/en-us/ProofofResidence"
-              >
-                &nbsp;proof of residency document
-              </a>
-              &nbsp;and a
-              <a
-                className="no-underline text-blue-700 hover:text-blue-800"
-                href="https://myvote.wi.gov/en-us/PhotoIDRequired"
-              >
-                &nbsp;form of I.D
-              </a>
-              &nbsp;along to register on Election Day.
-            </p>
-
-            <p className="mb-3">
-              If you want to save time and avoid the hassle of registering on
-              Election Day, it&apos;s super easy to register other ways, here are the deadlines for each method:
-            </p>
-            <ul className="list-disc list-outside mb-6 pl-4">
-              <li className="">
-                Online: Wednesday, October 14, 2020 (20 days before Election
-                Day).
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://myvote.wi.gov/en-us/RegisterToVote"
-                >
-                  &nbsp;Click here to register online.
-                </a>
-              </li>
-              <li>
-                Mailing Your Election Office: Postmarked Wednesday, October 14,
-                2020 (the 3rd Wednesday before Election Day).
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://elections.wi.gov/sites/elections.wi.gov/files/2019-11/EL-131%20Redesign%20fillable_1.pdf"
-                >
-                  &nbsp;Click here to print the form.
-                </a>
-              </li>
-              <li>
-                In Person at Your Election Office: Friday, October 30, 2020 (The
-                Friday before Election Day).
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://elections.wi.gov/sites/elections.wi.gov/files/2019-11/EL-131%20Redesign%20fillable_1.pdf"
-                >
-                  &nbsp;Click here to print the form.
-                </a>{" "}
-                <span className="font-bold">
-                  &nbsp;Bring your photo ID and proof of residency.
-                </span>
-              </li>
-            </ul>
-            <p className="mb-3">
-              Remember, make sure you bring both a proof of residency document
-              and a form of I.D. along no matter which kind of registration you
-              choose.
-            </p>
-            <div className="mb-3">
-              <InfoBox title="Having troubles registering online?">
-                <ul className="pt-4">
-                  <li className="pb-2">
-                    Contact{" "}
-                    <a
-                      className="no-underline text-blue-700 hover:text-blue-800"
-                      href="mailto:elections@wi.gov"
-                    >
-                      elections@wi.gov{" "}
-                    </a>
-                    and ask for help. Additionally, request that they add your address to the WisVote system.
-                  </li>
-                  <li className="pb-2"></li>
-                </ul>
-              </InfoBox>
-            </div>
-            <InfoBox
-              title="Need the mailing address to your local election
-                          office?"
-            >
-              <ul className="pt-4">
-                <li className="pb-2">
-                  Municipal clerks are in charge of elections for your city,
-                  town, or village. Your municipal clerk handles voter
-                  registrations and absentee ballots for voters in their
-                  municipality.
-                </li>
-                <li className="pb-2">
-                  <a
-                    className="no-underline text-blue-700 hover:text-blue-800"
-                    href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
-                  >
-                    Click here to locate your municipal clerk.
-                  </a>
-                </li>
-              </ul>
-            </InfoBox>
-          </div>
-        </section>
-
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            Can I mail my vote to the Wisconsin presidential election?
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              Voting by mail, also known as absentee, early voting, etc. is easy
-              to do
-              <span className="font-bold">
-                &nbsp;once you&apos;re registered.{" "}
-              </span>
-            </p>
-            <p className="mb-3">
-              In Wisconsin, if you&apos;re registered to vote, you&apos;re
-              eligible to request an absentee ballot. Under state law, you do
-              not need a reason or excuse to vote by mail.
-              <span className="font-bold">
-                &nbsp;Any voter who prefers to vote by absentee ballot may
-                request one.
-              </span>
-            </p>{" "}
-            <p className="mb-3">
-              When voting absentee, you will either complete your ballot in
-              person at your local election office OR receive and complete the
-              ballot via mail.
-            </p>{" "}
-          </div>
-        </section>
-
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            Why should I mail my vote for the Wisconsin presidential election?{" "}
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              Voting by mail is
-              <span className="font-bold">
-                &nbsp;cheaper, faster, and safer
-              </span>{" "}
-              than voting in person on Election Day.
-            </p>
-            <ul className="list-disc list-outside mb-6 pl-4">
-              <li className="">
-                <span className="font-bold">&nbsp;Cheaper</span>: Mail-in voting
-                is 100% free. No postage required. It&apos;s cheaper than the
-                cost of transporation to your local polling location.
-              </li>
-              <li className="">
-                <span className="font-bold">&nbsp;Faster</span>: Back in the
-                April 2020 Primary Election, voters in cities like Milwaukee and
-                Green Bay had to wait in line for hours.
-              </li>
-              <li className="">
-                <span className="font-bold">&nbsp;Safer</span>: Many polling
-                sites were closed during the April 2020 Primary Election.
-                Hundreds of poll workers had to stay home because of the
-                pandemic. Your typical poll worker is a senior citizen, which is
-                a high risk group for Covid-19.
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            How do I mail my ballot in the Wisconsin presidential election?
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              Your completed absentee ballot must be sitting in your election
-              office by{" "}
-              <span className="font-bold">8 p.m. on Election Day. </span> The
-              U.S.P.S. recommends absentee ballots be mailed{" "}
-              <span className="underline">one week</span> before Election Day to
-              arrive in time (Tuesday, October 27th, 2020).
-            </p>
-            <p className="mb-3">
-              You have several options for requesting an absentee ballot and
-              casting your vote via mail.
-            </p>
-            <ul className="list-disc list-outside mb-6 pl-4">
-              <li className="">
-                Online: You must request a ballot no later than 5:00 p.m. on
-                Thursday, October 29, 2020 in order for an absentee ballot to be
-                SENT to you.
-                <span className="font-bold">
-                  &nbsp;You will need a copy of your photo id.
-                </span>
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://myvote.wi.gov/en-US/VoteAbsentee"
-                >
-                  &nbsp;Request your absentee ballot by clicking here.
-                </a>
-              </li>
-              <li>
-                Mailing Your Election Office: You must request a ballot no later
-                than 5:00 p.m. on Thursday, October 29, 2020 in order for an
-                absentee ballot to be SENT to you.
-                <span className="font-bold">
-                  &nbsp;Send a copy of your photo id.
-                </span>
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://elections.wi.gov/forms/el-121-english"
-                >
-                  &nbsp;Click here to print the form.
-                </a>
-              </li>
-              <li>
-                In Person at your Election Office:{" "}
-                <a
-                  className="no-underline text-blue-700 hover:text-blue-800"
-                  href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
-                >
-                  Contact your local election
-                </a>{" "}
-                office for dates and hours of in-person absentee voting. You
-                will vote your ballot immediately in the election office, seal
-                your ballot in the proper envelope, and return it to a member of
-                the clerk&apos;s staff. No ballots may be taken out of the
-                election office.
-                <span className="font-bold">&nbsp;Bring your photo ID.</span>
-              </li>
-              <li>
-                <span className="underline">Once you&apos;re registered</span>,
-                wait until September: Ballot applications will go to all
-                registered voters in the state by September, unless you have
-                already requested an absentee ballot OR have moved and
-                haven&apos;t confirmed your address.
-                <span className="font-bold">
-                  &nbsp;You will need a copy of your photo id.
-                </span>
-              </li>
-            </ul>
-            <p className="mb-3">
-              Remember, you will need to provide a photo ID when requesting an
-              absentee ballot by mail or in-person. More information about
-              acceptable photo IDs can be found at{" "}
-              <a
-                className="no-underline text-blue-700 hover:text-blue-800"
-                href="www.bringit.wi.gov"
-              >
-                www.bringit.wi.gov
-              </a>
-              .
-            </p>{" "}
-            <p className="mb-3">
-              Once you get your absentee ballot in the mail, you can immediately
-              fill it out and return it.
-            </p>
-            <InfoBox title="Need to find your local election office?">
-              <ul className="pt-4">
-                <li className="pb-2">
-                  Municipal clerks are in charge of elections for your city,
-                  town, or village. Your municipal clerk handles voter
-                  registrations and absentee ballots for voters in their
-                  municipality.
-                </li>
-                <li className="pb-2">
-                  <a
-                    className="no-underline text-blue-700 hover:text-blue-800"
-                    href="https://myvote.wi.gov/en-US/MyMunicipalClerk"
-                  >
-                    Click here to locate your municipal clerk.
-                  </a>
-                </li>
-              </ul>
-            </InfoBox>{" "}
-          </div>
-        </section>
-
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
-          <h2 className="p-3 text-2xl font-bold">
-            How much does it cost to I mail my ballot in the Wisconsin
-            presidential election?
-          </h2>
-
-          <div className="leading-loose p-3">
-            <p className="mb-3">
-              <span className="font-bold">100% free </span>when your ballot is
-              mailed back from within the U.S.
-            </p>
-          </div>
-        </section>
-
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-          <h2 className="p-3 text-2xl font-bold">How can I help? </h2>
-          <div className="leading-loose p-3">
-            <p className="mb-3 font-bold">
-              Volunteering as a poll worker at your local polling station!
-            </p>
-            <p className="mb-3">
-              In April, during our last major presidential primary election,
-              <span className="font-bold">
-                &nbsp;97.3% of Milwaukee&apos;s
-              </span>{" "}
-              polling stations were closed because we didn&apos;t have enough
-              volunteers.
-            </p>
-            <p className="mb-3">
-              Green Bay had
-              <span className="font-bold">&nbsp;93.3% of its</span> polling
-              stations closed. La Crosse had
-              <span className="font-bold">&nbsp;38.5%</span> polling stations
-              closed, and Madison had
-              <span className="font-bold">&nbsp;28%</span> closed.
-            </p>
-            <p className="mb-3">
-              Polling sites were closed during the primary when there were not
-              enough poll workers available due to the pandemic. Your typical
-              poll worker is a senior citizen, which is a high risk group for
-              Covid-19.
-            </p>{" "}
-            <p className="mb-3">
-              Cities all across Wisconsin are looking for individuals interested
-              in working the polling locations on an election day! If you are
-              young and healthy, consider doing your part to make this a safe
-              and fair election. (By the way, his is a paid position!){" "}
-            </p>
-            <p className="mb-3">
-              Poll workers are appointed to two-year terms so you will be asked
-              to make a minimum two-year commitment. However, committing to one
-              election cycle (Primary/General) is also appreciated.
-            </p>
-            <p className="mb-3">
-              You can contact your municipal clerk directly to find out more
-              about the application process for your election office.{" "}
-              <a
-                className="no-underline text-blue-700 hover:text-blue-800"
-                href="https://elections.wi.gov/elections-voting/voters/become-a-poll-worker"
-              >
-                &nbsp;Click here to see which positions are available.
-              </a>{" "}
-            </p>
-          </div>{" "}
-          <div className="leading-loose p-3">
-            <p className="mb-3 font-bold">
-              Encourage your friends and family to vote
-            </p>
-
-            <p className="mb-3">
-              Every vote counts. Talk to your friends and family about the
-              election and encourage them to vote. You can help them register by
-              sharing this page. And remember to help them request an absentee
-              ballot so they can vote early.
-            </p>
-          </div>
-          <div className="leading-loose p-3">
-            <p className="mb-3 font-bold">Share your vote plan with others</p>
-
-            <p className="mb-3">
-              You’re more likely to follow through on your plan if you announce
-              it to your friends and family. Sharing your game plan to vote also
-              encourages others to consider how they will vote this year and if
-              they need to take any special steps (like sign up for absentee
-              voting) in order to do so.
-            </p>
-          </div>{" "}
-          <div className="leading-loose p-3">
-            <p className="mb-3 font-bold">Share your vote plan with others</p>
-
-            <p className="mb-3">
-              You’re more likely to follow through on your plan if you announce
-              it to your friends and family. Sharing your game plan to vote also
-              encourages others to consider how they will vote this year and if
-              they need to take any special steps (like sign up for absentee
-              voting) in order to do so.
-            </p>
-          </div>
-        </section>
-        <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-          <h2 className="p-3 text-2xl font-bold bg-gray-100">
-            Where is the official Wisconsin voter website?
-          </h2>
-          <p className="leading-loose p-3">
-            First off, please remember&nbsp;
-            <span className="underline">this guide</span>&nbsp;is not the
-            official Wisconsin voter&apos;s website.
-          </p>
-          <p className="leading-loose p-3">
-            The <span className="font-bold">&nbsp;official </span>
-            Wisconsin voter&apos;s website can be found at{" "}
             <a
               className="no-underline text-blue-700 hover:text-blue-800"
-              href="https://myvote.wi.gov/"
+              href="https://myvote.wi.gov/en-us/RegisterToVote"
             >
-              {" "}
-              https://myvote.wi.gov/
+              &nbsp;Click here to register online.&nbsp;
             </a>
-            .
+            Before you start, grab your
+            <span className="font-bold">&nbsp;photo ID.</span>
           </p>
+        </section>
+        <section className="bg-gray-100">
+          {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/2 mx-auto mb-8"
+          src={catAndHumanIllustration}
+        /> */}
+
+          <h2 className="p-3 text-2xl font-bold">
+            Step 2: get your mail-in ballot (2 min)
+          </h2>
+
+          <div className="leading-loose p-3">
+            <p className="mb-3">
+              <a
+                className="no-underline text-blue-700 hover:text-blue-800"
+                href="https://myvote.wi.gov/en-US/VoteAbsentee"
+              >
+                &nbsp;Click here to request your absentee ballot.
+              </a>{" "}
+              Again, grab your
+              <span className="font-bold">&nbsp;photo ID.</span>
+            </p>{" "}
+          </div>
+        </section>
+        <section className="bg-gray-100">
+          {/* <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/2 mx-auto mb-8"
+          src={catAndHumanIllustration}
+        /> */}
+
+          <h2 className="p-3 text-2xl font-bold">How can I learn more?</h2>
+
+          <div className="leading-loose p-3">
+            <p className="mb-3">
+              <Link
+                className="no-underline text-blue-700 hover:text-blue-800"
+                to="/faq"
+              >
+                Click here to view the voter FAQ.
+              </Link>
+            </p>
+          </div>
         </section>
       </div>
     </Layout>
