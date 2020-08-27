@@ -572,17 +572,6 @@ function IndexPage() {
               voting) in order to do so.
             </p>
           </div>{" "}
-          <div className="leading-loose p-3">
-            <p className="mb-3 font-bold">Share your vote plan with others</p>
-
-            <p className="mb-3">
-              You’re more likely to follow through on your plan if you announce
-              it to your friends and family. Sharing your game plan to vote also
-              encourages others to consider how they will vote this year and if
-              they need to take any special steps (like sign up for absentee
-              voting) in order to do so.
-            </p>
-          </div>
         </section>
         <section className="bg-gray-100">
           {/* <img
@@ -599,7 +588,7 @@ function IndexPage() {
             official Wisconsin voter&apos;s website.
           </p>
           <p className="leading-loose p-3">
-            The <span className="font-bold">&nbsp;official </span>
+            The <span className="font-bold">official </span>
             Wisconsin voter&apos;s website can be found at{" "}
             <a
               className="no-underline text-blue-700 hover:text-blue-800"
