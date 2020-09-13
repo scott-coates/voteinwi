@@ -93,7 +93,7 @@ function IndexPage() {
           The Unofficial Guide to Voting in Wisconsin 2020
         </h1>
       </section>
-      <div className="space-y-12 mb-48">
+      <div className="space-y-12">
         <section className="bg-gray-100">
           {/* <img
           alt="Cat and human sitting on a couch"
