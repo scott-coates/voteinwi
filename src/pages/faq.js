@@ -131,7 +131,7 @@ function IndexPage() {
                 update your address
               </a>{" "}
               with the Department of Transportation (but you don&apos; need a
-              new license). Also, you must be a resident for at least 10 days.{" "}
+              new license). Also, you must be a resident for at least 28 days.{" "}
             </p>
 
             <InfoBox title="Want to see all of the requirements for voting?">
@@ -140,7 +140,7 @@ function IndexPage() {
               </ul>
               <ul className="list-disc list-outside mb-6 pl-4">
                 <li>Be a citizen of the United States.</li>
-                <li>Be a resident of Wisconsin for at least 10 days.</li>
+                <li>Be a resident of Wisconsin for at least 28 days.</li>
                 <li>Be 18 years old or older.</li>
                 <li>
                   Not be incapable of understanding the objective of the
@@ -371,9 +371,11 @@ function IndexPage() {
 
           <div className="leading-loose p-3">
             <p className="mb-3">
-              Your completed absentee ballot must be sitting in your election
-              office by{" "}
-              <span className="font-bold">8 p.m. on Election Day. </span> The
+              For most people, your completed absentee ballot must be sitting in your local polling place by{" "}
+              <span className="font-bold">8 p.m. on Election Day </span> (unless otherwise noted <a
+                  className="no-underline text-blue-700 hover:text-blue-800"
+                  href="https://elections.wi.gov/node/7039"
+                >here</a>). The
               U.S.P.S. recommends absentee ballots be mailed{" "}
               <span className="underline">one week</span> before Election Day to
               arrive in time (Tuesday, October 27th, 2020).
