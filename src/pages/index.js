@@ -95,12 +95,59 @@ function IndexPage() {
       </section>
       <div className="space-y-12">
         <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
+          <h2 className="p-3 text-2xl font-bold bg-gray-100">
+            Step 1: find your polling location
+          </h2>
 
+          <p className="leading-loose p-3">
+            <a
+              className="no-underline text-blue-700 hover:text-blue-800"
+              href="https://myvote.wi.gov/en-US/FindMyPollingPlace"
+            >
+              &nbsp;Click here
+            </a>{" "}
+            to locate your polling place.
+          </p>
+        </section>
+        <section className="bg-gray-100">
+          <h2 className="p-3 text-2xl font-bold">
+            Step 2: bring the required documents
+          </h2>
+
+          <div className="leading-loose p-3">
+            <p className="mb-3">
+              Make sure you bring both a
+              <a
+                className="no-underline text-blue-700 hover:text-blue-800"
+                href="https://myvote.wi.gov/en-us/ProofofResidence"
+              >
+                &nbsp;proof of residency document
+              </a>
+              &nbsp;and a
+              <a
+                className="no-underline text-blue-700 hover:text-blue-800"
+                href="https://myvote.wi.gov/en-us/PhotoIDRequired"
+              >
+                &nbsp;form of I.D
+              </a>
+              &nbsp;along to register on Election Day.
+            </p>
+          </div>
+        </section>
+        <section className="bg-gray-100">
+          <h2 className="p-3 text-2xl font-bold">
+            Step 3: plan to vote Tuesday, November 3rd
+          </h2>
+
+          <div className="leading-loose p-3">
+            <p className="mb-3">
+              Unless you live in a big city or neighborhood, it should take less
+              than 20 minutes to vote. Plan ahead!
+            </p>
+          </div>
+        </section>
+        {/* 
+          <section className="bg-gray-100">
           <h2 className="p-3 text-2xl font-bold bg-gray-100">
             Step 1: register to vote (2 min)
           </h2>
@@ -117,12 +164,6 @@ function IndexPage() {
           </p>
         </section>
         <section className="bg-gray-100">
-          {/* <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        /> */}
-
           <h2 className="p-3 text-2xl font-bold">
             Step 2: get your mail-in ballot (2 min)
           </h2>
@@ -140,6 +181,7 @@ function IndexPage() {
             </p>{" "}
           </div>
         </section>
+        */}
         <section className="bg-gray-100">
           {/* <img
           alt="Cat and human sitting on a couch"
